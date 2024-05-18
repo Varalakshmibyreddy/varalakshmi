@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project workt</title>
+    <style>
+        .container{
+            margin-left: 130px;
+            text-align: center;
+            width: 1000px;
+            height: 3500px;
+        }
+        .parent{
+            width: 100;
+            height: 300px;
+            background-color: red; 
+            color: whitesmoke;
+            padding-top: 20px;
+        }
+        .button1{
+            text-align: center;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            padding: 8px;
+            margin: 5px;
+            margin-left: 10px;
+            border-color: blue;
+        }
+        .button2{
+            background-color: rgb(47, 73, 39);
+            color: white;
+            border-radius: 10px;
+            border-color: rgb(47, 73, 39);
+            padding: 8px;
+        }
+        img{
+            padding-top: 10px;
+        }
+        .parent2{
+            background-color: aqua;
+            height: 450px;
+        }
+        .child2{
+            padding-top: 20px;
+            margin-left: 50px; 
+        }
+        .C{
+            background-color: blue;          
+            color: white;
+            border-radius: 10px;
+            padding: 8px;
+        }
+        .parent1{
+            background-color: whitesmoke;
+            height: 300px;
+        }
+        .child1{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .A{
+            color: aqua;
+        }
+        .parent3{
+            background-color:whitesmoke;
+            height: 300px;
+        }
+        .child3{
+            padding-top: 50px;
+            text-align: center;
+        }
+        .D{
+            color: red;
+        }
+        .parent4{
+            height: 400px;
+            background-color: red;
+         }
+        .content{
+            width: 1000px;
+            background-color: aqua;
+            height: 450px;
+        }
+        .para1{
+            padding-top: 10px;
+            height: 378px;
+            width: 329px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .para2{
+            padding-top: 10px;
+            height: 380px;
+            width: 329px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .para3{
+            padding-top: 10px;
+            height: 380px;
+            width: 320px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .content2{
+            width: 1000px;
+            height: 400px;
+            background-color: orangered;
+        }
+        .p1{
+            height: 300px;
+            width: 229px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .p2{
+            height: 300px;
+            width: 229px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .p3{
+            height: 300px;
+            width: 229px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .p4{
+            height: 300px;
+            width: 229px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+        }
+        .button3{
+            border-color: orangered;
+            background-color: orangered;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .parent5{
+            height: 300px;
+            background-color: aquamarine;
+        }
+        .child5{
+            padding-top: 20px;
+            background-color: aquamarine;
+            font-size: x-large;
+        }
+        .F{
+            color: purple;
+        }
+        .G{
+            color: purple;
+        }
+        .H{
+            font-size: large;
+        }
+        .parent6{
+            font-size: x-large;
+            text-align: center;
+            padding-top: 10px;
+            background-color: #00b8ff;
+            height: 350px;
+        }
+        .I{
+            color: orange;
+        }
+        .J{
+            color: white;
+            background-color: green;
+            border-radius: 10px;
+            padding: 7px;
+        }
+        .K{
+            color: white;
+        }
+        .main{
+            padding-bottom: 10px;
+            padding-top: 30px;
+            background-color:whitesmoke;
+            height: 250px;
+            width: 1000px;
+        }
+        .menu{
+            color: palevioletred;
+        }
+        .button4{
+            border-color: aqua;
+            border-radius: 10px;
+            padding: 8px;
+            color: white;
+        }
+        .menu2{
+            margin: 5px;
+        }
+        .content3{
+            height: 400px;
+            width: 1000px;
+            background-color: #00b8ff;
+        }
+        .page1{
+            padding-top: 70px;
+            height: 300px;
+            width: 480px;
+            float: left;
+            text-align: center;
+            margin: 5px;
+            margin-right: 10px;
+        }
+        .page2{
+            margin-left: 10px;
+            height: 300px;
+            width: 480px;
+            float: left;
+            text-align: center;
+            margin: 5px;
+        }
+        .menu3{
+            padding-top: 20px;
+            color: white;
+        }
+        .button5{
+            color: white;
+            background-color: green;
+            border-radius: 10px;
+            padding: 7px;
+        }
+        .content4{
+            background-color: whitesmoke;
+            margin: 5px;
+            height: 150px;
+            width: 1000px;
+        }
+        .pag1{
+            margin: 3px;
+            float: left;
+            text-align: center;
+            width: 190px;
+            height: 300px;
+        }
+        .pag2{
+            margin: 3px;
+            float: left;
+            text-align: center;
+            width: 190px;
+            height: 300px;
+        }
+        .pag3{
+            margin: 3px;
+            float: left;
+            text-align: center;
+            width: 190px;
+            height: 300px;
+        }
+        .pag4{
+            margin: 3px;
+            float: left;
+            text-align: center;
+            width: 190px;
+            height: 300px;
+        }
+        .pag5{
+            margin: 7px;
+            float: left;
+            text-align: center;
+            width: 190px;
+            height: 300px;
+        }
+     .footer{
+        font-size: xx-large;
+        height: 50px;
+        width: 1000px;
+        margin-bottom: 50px;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="child">
+                <h2>Create and share your forms.</h2>
+                <button class="button1">PRO SIGNUP</button>
+                <button class="button2">SIGNUP FREE</button>
+                <img src="images/dyn2-removebg-preview.png" height="170px">
+            </div>
+            </div>
+            <div class="parent1">
+                <div class="child1">
+                    <h3>Building online forms can be hard.<br>
+                        <span class="A">Wufoo</span> makes it easy.</h3>
+                        <p>Our form designer can help you create contact forms, online surveys and initations so you can<br>
+                            collect the data, registration and payments you need.<br></p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="para1 col">
+                    <img src="images/form1-removebg-preview.png" height="200px" width="200px">
+                    <img src="images/arrow.webp" height="70px">
+                        <h2>CREAT A FORM!</h2><br>
+                        Use our form builder to custamize<br>
+                            and design your form
+
+                </div>
+                <div class="para2 col">
+                    <img src="images/share-removebg-preview (1).png" height="200px" width="200px">
+                    <img src="images/arrow.webp" height="70px">
+                        <h2>SHARE IT!</h2><br>
+                        Link to our pages, Embed on your site<br>
+                            or use our REST API.
+                </div>
+                <div class="para3 col">
+                    <img src="images/mobile-removebg-preview.png" height="200px" width="200px">
+                        <h2>GET YOUR DATA!</h2><br>
+                            We can emil or text you as data comes<br>
+                                in. Or set up a real-time report!<br>
+                </div>
+                    <button class="button4">TRY OUR FORM BUILDER</button>
+            </div>
+            <div class="parent3">
+                <div class="child3">
+                    <h3>Wufoo has the<br>
+                        <span class="D">features</span> you love.</h3>
+                        <p>Our form builder gives you an award-winnig interface, easy custamization,<br>
+                            gallarys, templates, and reporting.<br></p>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="p1 col">
+                    <img src="images/paint-removebg-preview.png" height="150px">
+                        <h2>FORM TEMPLATES</h2>
+                        Choose from 300+<br>
+                        templates. exactly how you<br>
+                        want them, ready to be<br>
+                            customized.
+                </div>
+                <div class="p2 col">
+                    <img src="images/stats-removebg-preview.png" height="150px">
+                        <h2>REPORTING</h2>
+                        Creating dynamic<br>
+                        visualization made up<br>
+                        of your own graphs
+                </div>
+                <div class="p3 col">
+                    <img src="images/rules-removebg-preview.png" height="150px">
+                        <h2>CUSTOM RULES</h2>
+                        Use rules to create dynamic<br>
+                        forms that will follow logic<br>
+                        that you've specified
+                        
+                </div>
+                <div class="p4 col">
+                    <img src="images/card-removebg-preview.png" height="150px">
+                        <h2>TAKE PAYMENTS</h2>
+                        Start accepting online<br>
+                        payments with a wufoo<br>
+                        powered from within<br>
+                            minuets.
+                </div>
+
+                    <button class="button3" >SEE MORE FEATURES</button>
+
+                </div>
+
+                <div class="parent5">
+                    <div class="child5">
+                        <h4>We have plans form<span class="F"> Free </span> to <span class="G"> Unlimited </span></h4>
+                        <p class="H">Checkout our pricing page for plan details.</p>
+                    </div>
+                </div>
+                <div class="parent6">
+                    <div class="child6">
+                        <img src="images/9095617-removebg-preview.png" height="150px" float="right">
+                        <img src="images/baby-removebg-preview.png" height="150px">
+                        <h5> <span class="K">Ready to get started?</span> <span class="I"> it's Free! </span></h5>
+                        <button class="J">SIGN UP NOW </button>
+            </div>
+        </div>
+        <div class="main">
+                <h2>Trusted by some of the most<span class="menu"> popular brands</span> on the web.</h2>
+                <div class="menu2">
+            <marquee>
+                <img src="images/recruiter-1.jpg" height="100px">
+                <img src="images/recruiter-2.jpg" height="100px">
+                <img src="images/recruiter-11.jpg" height="100px">
+                <img src="images/recruiter-10.jpg" height="100px">
+                <img src="images/recruiter-9.jpg" height="100px">
+                <img src="images/recruiter-7.jpg" height="100px">
+                <img src="images/recruiter-6.jpg" height="100px">
+                <img src="images/recruiter-5.jpg" height="100px">
+                <img src="images/recruiter-4.jpg" height="100px">
+                <img src="images/recruiter-3.jpg" height="100px">
+            </marquee>
+        </div>
+        </div>
+        <div class="content3">
+            <div class="page1 col">
+                <h2><span class="menu3"> Wanna know more!</span></h2>
+                    you have made it allvthe way down here! you deserve<br>
+                    a reward. so we made a vedio to help you learn all about<br>
+                    Wufoo. the online form builder. Take a<br>
+                        look and enjoy.<br>
+                <button class="button5"> GET STARETED </button><br>
+            </div>
+            <div class="page2 col">
+                <img src="images/roboat-removebg-preview.png" height="350px" width="350px">
+            </div>
+        </div>
+        <div class="content4">
+            <div class="pag1 col">
+                <h2>About</h2>
+                Our Team<br>
+                Sitemap<br>
+                Job Opportunities
+            </div>
+            <div class="pag2 col">
+                <h2>Support</h2>
+                help & docs<br>
+                FAQ<br>
+                Guides
+            </div>
+            <div class="pag3 col">
+                <h2>Contact</h2>
+                Integrations<br>
+                press Inquiries
+            </div>
+            <div class="pag4 col">
+                <h2>Legal</h2>
+                Report Abuse<br>
+                terms of service<br>
+                Privacy statement
+            </div>
+            <div class="pag4 col">
+                <h2>We're On it.</h2>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+                 integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+                 crossorigin="anonymous" referrerpolicy="no-referrer" />
+                 <i class="fa-brands fa-twitter"></i>
+                 <i class="fa-brands fa-facebook-f"></i>
+                 <i class="fa-brands fa-youtube"></i>
+                 <i class="fa-brands fa-linkedin-in"></i>
+                 <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+        <div class="footer">
+                Copyright@ 2006-2015 
+        </div>
+    </div>
+</body>
+</html>
